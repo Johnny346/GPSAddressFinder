@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:name="android.permission.ACCESS_FINE_LOCATION"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewmain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#003A6D57"
+            android:backgroundTint="#3E7AB1F0"
+            android:capitalize="characters"
+            android:paddingTop="30dp"
+            android:paddingBottom="0dp"
+            android:text="GPS Address Finder"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/ReportButton"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:backgroundTint="#AE0B74F0"
+            android:text="Stored Addresses"
+            android:visibility="invisible" />
+
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:layout_gravity="center"
+
+            tools:context=".MainActivity" />
+
+        <TextView
+            android:id="@+id/textViewStartAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:backgroundTint="#AD6BE014"
+            android:text="Your Nearest Address" />
+
+    </LinearLayout>
+</LinearLayout>
