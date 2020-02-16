@@ -7,4 +7,4 @@
 2. Use the google maps marker and display the address information for where the marker is dropped.
 
 
-![app in use to identify house addresses](/images/Screenshot_20200213-232837_GPSAddressFinder.jpg){ width=50% }
+![app in use to identify house addresses](/images/Screenshot_20200213-232837_GPSAddressFinder.jpg)
