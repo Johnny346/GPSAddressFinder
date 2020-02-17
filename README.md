@@ -5,7 +5,7 @@
 ### Helps to identify the customers house faster by using the GPS and Google Maps to identify specific addresses near you.  
 
 ## Two ways to use this application:  
-1. Press "Get Nearest Address" Button to Display the address of the house nearest to your GPS location. 
+1. Press "Your Nearest Address" Button to Display the address of the house nearest to your GPS location. 
 2. Move the google maps marker and display the address information for where the marker is dropped.
 
 ![app in use to identify house addresses](/images/Screenshot_20200213-232808_GPSAddressFinder.jpg)
